@@ -1,0 +1,4 @@
+(1) go to data/Smoke - modify data.yaml
+(2) cd to main page 
+python train.py --img 416 --batch 16 --epochs 100 --data 'data/Smoke/data.yaml' --cfg models/custom_yolov5s.yaml --weights '' --name yolov5s_results  --cache
+(3) python detect.py --weights runs/exp0_yolov5s_results/weights/best.pt --img 416 --conf 0.4 --source ../test/images

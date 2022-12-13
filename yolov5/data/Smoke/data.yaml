@@ -1,0 +1,5 @@
+train: /Users/linrihe/Desktop/Fall2023/Cloud/FinalProject/yolov5/data/Smoke/train/images
+val: /Users/linrihe/Desktop/Fall2023/Cloud/FinalProject/yolov5/data/Smoke/valid/images
+
+nc: 1
+names: ['smoke']
